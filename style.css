@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+.navbar-top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.social-link svg{
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.icons svg{
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer; 
+}
+.icons svg:hover{
+    background-color: rgba(238,224,208);
+    border-radius: 50px;
+}
+.social-link svg:hover{
+    background-color: rgba(238,224,208);
+    border-radius: 50px;
+}
+@media screen and (max-width:420px){
+    .social-link svg{
+        width:20px;
+    }
+    .logo h3{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .icons svg{
+        width:20px;
+
+    }
+}
+/* navbar */
+
+
+/* Main content */
+    .main-content{
+        width: 100%;
+        height: 90vh;
+        background-image: url("https://image.slidesdocs.com/responsive-images/background/home-furniture-light-color-simple-and-minimalist-powerpoint-background_7ca6111339__960_540.jpg");
+        background-size: cover;
+        background-position: 70%;
+    }
+    #navbar-color{
+        background-color: rgba(238,224,208);
+    }
+    .navbar-nav{
+        margin: auto;
+    }
+    .nav-link{
+        margin-left: 30px;
+        font-weight: bold;
+        color: black;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+    .nav-link:hover{
+        color: green;
+    }
+/* Main content */
+/* content */
+ .content{
+    margin-top: 150px;
+    margin-left: 60px;
+ }
+ .content h1{
+    font-size: 50px;
+ }
+ #btn1 button{
+    width: 150px;
+    height: 32px;
+    background: transparent;
+    border: 1px solid black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+ }
+ #btn1 button:hover{
+    background-color: green;
+    border-radius: 20px;
+ }
+ @media screen and (max-width:420px) {
+    .content h1{
+        font-size: 30px;
+    }
+ }
+/* content */
+
+
+/* card  1*/
+ #btn2 button{
+    width: 100px;
+    height: 30px;
+    background: white;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+ }
+ #btn2 button:hover{
+    background-color: rgba(238,224,208);
+    border-radius: 20px;
+ }
+/* card 1 */
+
+/* card 2 */
+ #tpc{
+    box-shadow: 0 0 5px black;
+    transition: 0.3s ease;
+ }
+ #tpc:hover{
+    transform: translateY(-15px);
+ }
+/* card 2 */
+
+/* card 3 */
+ #c p{
+    font-weight: bold;
+ }
+
+ #btn3 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+ }
+ #btn3 button:hover{
+    background-color: rgba(238,224,208);
+ }
+ @media screen and (max-width:895px) {
+    #btn3 button{
+        width: 100px;
+    }
+ }
+/* card 3 */
+
+
+
+#btn4 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+ }
+
+ #btn4 button:hover{
+    background-color: rgba(238,224,208);
+ }
+
+ /* footer */
+ #footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+
+ }
+ #footer h1{
+    color: white;
+    padding-top: 30px;
+ }
+ #footer p{
+    color: white;
+ }
+ .icons i{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+ }
+ .copyright{
+    color: white;
+    margin-top: 20px;
+ }
+ .credite{
+    color: white;
+ }
